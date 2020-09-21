@@ -1,2 +1,6 @@
 # theMurphys
-A simple text-based game.
+The Secrets of the Murphys’ ist ein textbasiertes Rollenspiel. Der Spielende findet sich in den Fussstapfen eines Charakters wieder, der in seine ehemalige Heimatstadt reist, um das totgeschwiegene Familien Geheimnis zu aufzuspüren.
+Zusammen mit der Unterstützung, oder eventueller Hinderung, verschiedener Charaktere und Aufgaben, kommt man hinter die generationenalten Geheimnisse der Murphys. Das Spiel enthält Gegenstände, mit denen man auf unterschiedlichste Weise interagiert, sowie eine grosse Auswahl an Räumen, die nicht zu selten vorerst unzugänglich sind, was man mit passenden Schlüsseln lösen kann. 
+Das Spiel endet nicht mit einem Ziel und es gibt auch keine Möglichkeit zu verlieren, es stellt lediglich eine interaktive Geschichte dar, die man nicht nur lesen kann, sondern selbst miterleben.
+Visuell ist das Spiel mit einem Startbildschirm ausgestattet. Auf dem eigentlichen Spielfeld befindet sich rechts ein grosses Textfeld auf welchem, bereits eingegebene, Befehle und Antworten wiedergegeben werden. Auf der linken Seite präsentiert sich ein Inventar, gefüllt mit allen eingesammelten (noch nicht verwendeten) Objekten und gleich darunter eine kleine Hilfe, in der erinnert wird, in welchem Raum man sich befindet und was die aktuellste Aufgabe fordert. Eine Menu Bar bietet neben einem Hilfe-Text, in dem alle existierenden Befehle und Informationen einsehbar sind, auch die Möglichkeit manche Details des Charakters zu personalisieren an.
+
