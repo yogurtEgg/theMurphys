@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<Accordion maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <panes>
+        <TitledPane animated="false" text="Story">
+            <content>
+                <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                    <content>
+                        <Label text="Story" />
+                    </content>
+                </ScrollPane>
+            </content>
+        </TitledPane>
+        <TitledPane animated="false" text="Commands">
+            <content>
+                <Accordion>
+                    <panes>
+                        <TitledPane animated="false" layoutX="10.0" layoutY="35.0" text="General">
+                            <content>
+                                <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                           <content>
+                              <TextFlow prefHeight="252.0" prefWidth="597.0">
+                                  <children>
+                                      <Label prefHeight="17.0" prefWidth="400.0" text="leave (OUT OF ORDER)" />
+                                    <Label layoutX="10.0" layoutY="10.0" text="This command asks you if you're sure, and if you accept the Game will close itself without further questioning." />
+                                      <Label prefHeight="17.0" prefWidth="400.0" text="go to ROOM" />
+                                      <Label layoutX="10.0" layoutY="10.0" text="With this command you can change the room. But only if the room you want to go to is adjacent to your current room." />
+                                  </children>
+                              </TextFlow>
+                           </content>
+                                </ScrollPane>
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="People">
+                            <content>
+                                <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                           <content>
+                              <TextFlow prefHeight="200.0" prefWidth="554.0">
+                                  <children>
+                                      <Label prefHeight="17.0" prefWidth="400.0" text="talk to PERSON" />
+                                      <Label layoutX="10.0" layoutY="10.0" text="With this command you can talk to a person in the room, if there is something to talk about. Otherwise nothing will happen." />
+                                  </children>
+                              </TextFlow>
+                           </content>
+                                </ScrollPane>
+                            </content>
+                        </TitledPane>
+
+                        <TitledPane animated="false" text="Objects">
+                            <content>
+                                <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                                    <content>
+                                        <TextFlow prefHeight="200.0" prefWidth="554.0">
+                                            <children>
+                                                <Label prefHeight="17.0" prefWidth="400.0" text="use OBJECT" />
+                                                <Label layoutX="10.0" layoutY="10.0" text="You can use any object in your inventory. If there is no use for the Object or you do not own the object, nothing will happen." />
+                                            </children>
+                                        </TextFlow>
+                                    </content>
+                                </ScrollPane>
+                            </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+            </content>
+        </TitledPane>
+    </panes>
+</Accordion>

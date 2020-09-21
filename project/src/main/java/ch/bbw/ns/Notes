@@ -1,0 +1,10 @@
+Room/Command Interface, jeder Room/Command eine eigene Klasse
+
+Gamemanager zu command, zurück zu game manager,
+
+GC -> GM newCommand, GM -> Com create (command zurück), GM -> Com applyToRoom, Com -> R take, R -> GM add(Item i)
+
+Enom -> (Bsp. Item) Objekte haben keine Attribute oder Methoden, existieren einfach
+
+Person will ein bestimmtes Item;
+    Person -> Wie Rooms, "wanted Item"

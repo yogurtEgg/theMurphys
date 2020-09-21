@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0"
+      prefWidth="337.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ch.bbw.ns.PlayerController">
+    <children>
+        <Label text="Player Personalisation">
+
+            <padding>
+                <Insets bottom="20.0" left="15.0" right="20.0" top="20.0"/>
+            </padding>
+            <font>
+                <Font name="Baskerville Old Face" size="18.0"/>
+            </font>
+        </Label>
+        <Label text="Gender Preference">
+            <padding>
+                <Insets bottom="10.0" left="15.0" right="10.0" top="10.0"/>
+            </padding>
+            <font>
+                <Font name="Baskerville Old Face" size="14.0"/>
+            </font>
+        </Label>
+        <HBox prefHeight="41.0" prefWidth="340.0">
+            <children>
+                <RadioButton mnemonicParsing="false" selected="true" text="Female" fx:id="f">
+                    <padding>
+                        <Insets bottom="10.0" left="15.0" right="10.0" top="10.0"/>
+                    </padding>
+                    <toggleGroup>
+                        <ToggleGroup fx:id="gender"/>
+                    </toggleGroup>
+                    <font>
+                        <Font name="Baskerville Old Face" size="12.0"/>
+                    </font>
+                </RadioButton>
+                <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Male" toggleGroup="$gender" fx:id="m">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                    </padding>
+                    <font>
+                        <Font name="Baskerville Old Face" size="12.0"/>
+                    </font>
+                </RadioButton>
+                <RadioButton mnemonicParsing="false" selected="true" text="Enby" toggleGroup="$gender" fx:id="e">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                    </padding>
+                    <font>
+                        <Font name="Baskerville Old Face" size="12.0"/>
+                    </font>
+                </RadioButton>
+            </children>
+        </HBox>
+
+        <Label text="Name">
+            <padding>
+                <Insets bottom="15.0" left="15.0" right="15.0" top="15.0"/>
+            </padding>
+            <font>
+                <Font name="Baskerville Old Face" size="14.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="inputName" promptText="Audrey">
+            <VBox.margin>
+                <Insets bottom="15.0" left="15.0" right="15.0"/>
+            </VBox.margin>
+            <font>
+                <Font name="Baskerville Old Face" size="12.0"/>
+            </font>
+        </TextField>
+        <HBox alignment="CENTER_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="41.0" prefWidth="340.0">
+            <children>
+                <Button layoutX="280.0" layoutY="22.0" mnemonicParsing="false" onAction="#handleButtonContinue" text="Continue">
+                    <padding>
+                        <Insets bottom="5.0" left="15.0" right="15.0" top="5.0"/>
+                    </padding>
+                    <HBox.margin>
+                        <Insets left="15.0" right="15.0" top="10.0"/>
+                    </HBox.margin>
+                    <font>
+                        <Font name="Baskerville Old Face" size="13.0"/>
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </children>
+</VBox>

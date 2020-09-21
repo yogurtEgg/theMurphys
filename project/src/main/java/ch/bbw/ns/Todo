@@ -1,0 +1,30 @@
+-> Alle Kommentare/Attribut/Methoden gleiche Sprache
+
+-> Demo erstellen (von BHF zur Stadt)
+        "you arrive in town after long train drive...take your phone, call an uber"
+    - take phone
+        "you call an uber... where do you want to go"
+    - go to town
+        "you arrive in town... there's Jane, your childhood friend welcoming you, you should go talk to her"
+    - talk to Jane
+        "Congrats"
+
+
+-> Player Klasse erstellen (Charakter Personalisation is saved there, Inventory)
+
+-> Reaktion nach Aktionen (Charaktere, Objekte, goTo) //get help (ex.) opens Help
+
+-> Wenn viel erzählt wird -> Pause zwischen sätzen/Absätzen, Textfeld disablen
+
+-> Clean code
+    - Charactern -> Person
+    - lowerCase schreiben/toLowerCase
+    - delete failed
+    - Exceptions als Fehlermeldung
+
+-> Visualisation of give command(wie auf Blatt)
+
+-> UseCase Diagramm
+
+-> expand Story
+

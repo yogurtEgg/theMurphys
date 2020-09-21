@@ -1,0 +1,14 @@
+'public static final Veranda INSTANCE = new Veranda'
+Wofür Klasse in sich selber erzeugen?
+
+Wofür sind Attribute 'final'?
+
+Wofür sind Methoden/Attribute 'static'?
+
+
+
+Klasse
+        /**
+        * 'Name von Klasse' oder
+        * 'Nutzen von Klasse'
+        **/
